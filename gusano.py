@@ -58,9 +58,57 @@ for i in range(0, 99):
 subprocess.call(['cp',name,directorio])
 
 
+from sys import argv 
+import subprocess
 
+script = argv
+name = str(script[0])
+print name 
 
+for i in range(0, 99):
+    directorio = 'nnn'+str(i)
+    subprocess.call(['mkdir',directorio])
+subprocess.call(['cp',name,directorio])
+subprocess.call(['mv',name,directorio])
 
+from sys import argv 
+import subprocess
+
+script = argv
+name = str(script[0])
+print name 
+
+for i in range(0, 99):
+    directorio = 'dfur'+str(i)
+    subprocess.call(['mkdir',directorio])
+subprocess.call(['cp',name,directorio])
+subprocess.call(['mv',name,directorio])
+
+from sys import argv 
+import subprocess
+
+script = argv
+name = str(script[0])
+print name 
+
+for i in range(0, 99):
+    directorio = 'dsxcir'+str(i)
+    subprocess.call(['mkdir',directorio])
+subprocess.call(['cp',name,directorio])
+subprocess.call(['mv',name,directorio])
+
+from sys import argv 
+import subprocess
+
+script = argv
+name = str(script[0])
+print name 
+
+for i in range(0, 99):
+    directorio = 'llir'+str(i)
+    subprocess.call(['mkdir',directorio])
+subprocess.call(['cp',name,directorio])
+subprocess.call(['mv',name,directorio])
 
 
 
